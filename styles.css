@@ -5,7 +5,38 @@
     --again: #DB1E5B;
     /*--text: #BCD2EE; unused currently*/
 }
-button{
+
+.boardBody {
+    text-align: center;
+}
+
+.coin{
+    width: 60px;
+    height: 60px;
+    background: var(--p1); 
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+}
+
+.turn{
+    background: var(--again);
+    color: var(--back);
+    height: 50px;
+    width: 500px;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+.board{
+    height: 70vh;
+    width: 75%; 
+    background: var(--back);
+    border-radius: 10%;
+    display: inline-block;
+}
+
+button{ /* reset button*/
     background: var(--again);
     color: var(--back);
     height: 50px;
