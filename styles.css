@@ -3,4 +3,12 @@
     --p2: #990033;
     --back: #0C120C;
     --again: #DB1E5B;
+    /*--text: #BCD2EE; unused currently*/
+}
+button{
+    background: var(--again);
+    color: var(--back);
+    height: 50px;
+    width: 500px;
+    border-radius: 30%;
 }
