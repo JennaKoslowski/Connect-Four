@@ -17,6 +17,10 @@
     border-radius: 50%;
     display: inline-block;
     margin: 15px;
+    animation-name: spinning;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2.5s;
 }
 
 .turn{
@@ -72,3 +76,16 @@ td {
     border-radius: 30%;
     display: inline-block;
 }
+
+@keyframes spinning {
+    0% {
+      transform: rotate3d(0, 1, 0, 0deg);
+    }
+    50% {
+      transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% {
+      transform: rotate3d(0, 1, 0, 360deg);
+    }
+  }
+  
