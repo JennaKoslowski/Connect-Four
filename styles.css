@@ -30,6 +30,7 @@
     width: 500px;
     border-radius: 30%;
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .board{ /*game board*/
