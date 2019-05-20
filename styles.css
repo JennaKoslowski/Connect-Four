@@ -29,34 +29,42 @@
 }
 
 .board{ /*game board*/
-    height: 50vh;
-    width: 75%; 
+    height: 400px;
+    width: 420px; 
     background: var(--back);
     border-radius: 10%;
     display: inline-block;
 }
 table{
     border-spacing: 5px;
-    height: 48vh;
-    width: inherit;
+    height: 340px;
+    width: 405px;
     display: inline-block;
     margin: 5px;
+    padding-top: 30px;
 }
 tbody {
     display: inline-block;
     width: 100%;
     height:inherit;
     background: var(--text);
+
 }
 td {
-    background: var(--back);
-    border: black;
+    background: var(--text);
     border-width: 70px;
     height: 50px;
     width: 50px;
 }
+.slot{
+    width: inherit;
+    height: inherit;
+    border-color: var(--text);
+    border-radius: 50%;
+    background: var(--back);
+}
 
-button{ /* reset button*/
+.reset{ /* reset button*/
     background: var(--again);
     color: var(--back);
     height: 50px;
