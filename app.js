@@ -7,15 +7,17 @@ let player1;
 let player2;
 var col;
 var occupied;
-
-//onclick {bkgdChange();}
+console.log(slot);
+slot.addEventListener("click", function(event){
+    bkgdChange();
+});
 
 function bkgdChange(){
-    let turn= 1;
-    if (turn%2==1){
+    let turns= 1;
+    if (turns%2==1){
         slot.style.backgroundColor = "var(--p1)";
         }
     else {
-        //bkgd changes color
+        slot.style.backgroundColor = "var(--p2)";
     }
 } 
